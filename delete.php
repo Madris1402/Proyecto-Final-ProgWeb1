@@ -4,4 +4,4 @@
   $sql = "delete from usuarios where id=$id";
   $conexion->query($sql);
   $conexion->close();
-  header("location: list.php");
+  header("location: home.php");

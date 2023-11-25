@@ -37,7 +37,7 @@
       echo "<td>" . $row['email'] . "</td>";
       echo "<td>" . $row['fecha_registro'] . "</td>";
       echo "<td>" . $row['permisos'] . "</td>";
-      echo '<td><a href="list.php?id=' . $row['id'] . '" role="button" style="border: 2px solid mediumaquamarine; border-radius: 10px; background: mediumaquamarine; padding: 3px; text-align: center; text-decoration: none; color: black; font-weight: bold; font-size: 0.8em;">Actualizar</a></td>';
+      echo '<td><a href="home.php?id=' . $row['id'] . '" role="button" style="border: 2px solid mediumaquamarine; border-radius: 10px; background: mediumaquamarine; padding: 3px; text-align: center; text-decoration: none; color: black; font-weight: bold; font-size: 0.8em;">Actualizar</a></td>';
     }
     echo '<td><a href="delete.php?id=' . $row['id'] . '" role="button" style="border: 2px solid tomato; border-radius: 10px; background: tomato; padding: 3px; text-align: center; text-decoration: none; color: black; font-weight: bold; font-size: 0.8em;">Eliminar</a></td>';
     echo "</tr>";

@@ -10,7 +10,7 @@
   $result = $conexion->query($sql);
   $conexion->close();
 
-  header("Location: list.php");
+  header("Location: home.php");
   
 ?>
 ?>
