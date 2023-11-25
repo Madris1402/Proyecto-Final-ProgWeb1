@@ -23,8 +23,20 @@ if (isset($_SESSION['id']) && isset($_SESSION['usuario'])) {
           <?php echo $_SESSION['nombre']; ?>
      </h1>
 
-     <a href="logout.php">Cerrar Sesión</a>
+     <a class="button" href="logout.php">Cerrar Sesión</a>
 
+     <div class="listas">
+        <h1>Usuarios Registrados</h1>
+        <h2>Puedes ver o modificar la información aquí</h2>
+    </div>
+    <div class="centrar">
+      <table class="tablas">
+      <tbody class="centrar">
+        <?php include 'read.php';?>
+      </tbody>
+    </table>
+  </div>
+  
 </body>
 
 </html>
