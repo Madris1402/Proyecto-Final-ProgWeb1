@@ -13,7 +13,7 @@
 
      <form action="login.php" method="post">
 
-        <h2>Iniciar Sesión</h2>
+        <h1>Iniciar Sesión</h1>
 
         <?php if (isset($_GET['error'])) { ?>
 
@@ -22,18 +22,30 @@
         <?php } ?>
 
         <div class = 'ventana'>
+            <table class="centrar">
+                <tbody>
+                    <tr>
+                        <td><label for="nombre_usuario">Nombre de Usuario</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "input" type="text" name="usuario" required placeholder="Ingresa tu Usuario"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Contraseña</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "input" type="password" name="pass" required placeholder="Ingresa tu Contraseña"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Iniciar Sesion</button> <button type="reset" value="Reset">Vaciar Campos</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
             
-            <label for="nombre_usuario">Nombre de Usuario</label> <br>
-            <input class = "input" type="text" name="usuario" required placeholder="Ingresa tu Usuario">
-            <br>
 
-            <br>
-            <label for="password">Contraseña</label> <br>
-            <input class = "input" type="password" name="pass" required placeholder="Ingresa tu Contraseña">
-            <br>
 
-            <button type="submit">Iniciar Sesion</button>
-            <button type="reset" value="Reset">Vaciar Campos</button>
         </div>
 
      </form>
