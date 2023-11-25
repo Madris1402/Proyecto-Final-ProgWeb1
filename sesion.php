@@ -10,6 +10,11 @@
 </head>
 
 <body>
+    <table>
+            <tr>
+            <td><a style="text-decoration: none; border: 3px solid; border-radius:10px; padding: 3px; color: green;" href="index.php">Inicio</a></td>
+            </tr>
+     </table>
 
      <form action="login.php" method="post">
 

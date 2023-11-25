@@ -18,12 +18,23 @@ if (isset($_SESSION['id']) && isset($_SESSION['usuario'])) {
 </head>
 
 <body>
-
-     <h1>Bienvenido
-          <?php echo $_SESSION['nombre']; ?>
-     </h1>
-
-     <a class="button" href="logout.php">Cerrar Sesión</a>
+     <table>
+            <tr>
+            <td><a style="text-decoration: none; border: 3px solid; border-radius:10px; padding: 3px; color: green;" href="index.php">Inicio</a></td>
+            </tr>
+     </table>
+     <table class="centrar">
+          <tbody class="home">
+               <tr>
+                    <td>
+                         <h1>Bienvenido <?php echo $_SESSION['nombre']; ?></h1> 
+                    </td>
+                    <td>
+                         <a class="button" href="logout.php">Cerrar Sesión</a>
+                    </td>
+               </tr>
+          </tbody>
+     </table>
 
      <div class="listas">
         <h1>Usuarios Registrados</h1>

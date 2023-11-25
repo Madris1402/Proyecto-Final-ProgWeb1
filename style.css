@@ -109,23 +109,26 @@ h2, label{
     width: 400px;
 }
 
-.tablas{
-    text-align: center;
-    padding: 7px;
-    border: 3px solid #aaaa;
-    border-radius: 15px;
-    background: #ffffff;
-    box-shadow: 5px 5px 10px #3c584e49;
-    font-size: 0.5em;
-    border-spacing: 15px;
+.home{
+    border-spacing: 20px;
 }
-
-
-        .tablas td{
-            margin-top: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: normal;
-            font-size: 0.85em;
+        .tablas{
+            text-align: center;
+            padding: 7px;
+            border: 3px solid #aaaa;
+            border-radius: 15px;
+            background: #ffffff;
+            box-shadow: 5px 5px 10px #3c584e49;
+            font-size: 0.5em;
+            border-spacing: 15px;
         }
+
+
+                .tablas td{
+                    margin-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: normal;
+                    font-size: 0.85em;
+                }

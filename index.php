@@ -7,6 +7,7 @@
         <title>Proyecto Final ProgWeb1</title>
     </head>
     <body>
+        </table>
         <div class='header'>
             <h1>Proyecto Final Programación Web 1</h1>
             <h2>Por: Ricardo Madrigal Urencio</h2>
