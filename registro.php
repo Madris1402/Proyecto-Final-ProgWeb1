@@ -25,6 +25,7 @@
           <label for="email"> Correo Electrónico:</label> <br>
           <input class="input" type="text" id="email" required placeholder name="email"> <br>
           <button type="submit" class="btn btn-primary">Registrar</button>
+          <button type="reset" value="Reset">Vaciar Campos</button>
         </form>
 </div>
 

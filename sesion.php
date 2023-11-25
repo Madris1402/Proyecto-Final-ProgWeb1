@@ -33,6 +33,7 @@
             <br>
 
             <button type="submit">Iniciar Sesion</button>
+            <button type="reset" value="Reset">Vaciar Campos</button>
         </div>
 
      </form>
